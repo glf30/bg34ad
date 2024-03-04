@@ -48,6 +48,7 @@ roll1.addEventListener("click", () => {
   } else {
     document.querySelector("h1").innerText = "DOES BOBBY LOVE ME?"
     document.querySelector("h5").appendChild(input);
+    input.placeholder = "SECRET CODE"
 
     if (input.value === "imamazing") {
         myRoll = 20;
