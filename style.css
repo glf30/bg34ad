@@ -1,0 +1,42 @@
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.actualButton {
+    margin: 10px;
+    padding: 10px;
+}
+
+#d20img {
+    margin: 8px;
+}
+
+.charSelect {
+    display: flex;
+    margin: 20px;
+}
+
+.charCard {
+    margin: 20px;
+    padding: 4px;
+}
+
+#amandaCard {
+    color: black;
+    text-decoration: none;
+}
+
+#amandaCard:hover {
+    cursor: pointer;
+}
+
+#bobbyCard:hover {
+    cursor: not-allowed;
+}
+
+.actualButton:hover {
+    cursor: pointer;
+}
